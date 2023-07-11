@@ -28,10 +28,10 @@ const Home = () => {
           alignItems="center"
           spacing={['16', '56']}
         >
-          <VStack width={'full'} alignItems={['center', 'flex-end']}>
+          <VStack width={'full'} alignItems={['center', 'flex-end']} spacing={8}>
             <Heading children="Learn From the Experts" size={'2xl'} />
-            <Text children="Find the valuable course in reasonable price" />
-            <Link to={'/course'}>
+            <Text fontFamily={'cursive'} fontSize={'2xl'} textAlign={['center','left']} children="Find the valuable course in reasonable price" />
+            <Link to={'/courses'}>
               <Button size={'lg'} colorScheme={'yellow'}>
                 Enroll Now
               </Button>
@@ -59,7 +59,7 @@ const Home = () => {
 
 
       <div className="container2">
-        <video autoPlay controls controlsList='nodownload nofullscreen noremoteplayback' disablePictureInPicture disableRemotePlayback  src={introvid}></video>
+        <video  controls controlsList='nodownload nofullscreen noremoteplayback' disablePictureInPicture disableRemotePlayback  src={introvid}></video>
       </div>
     </section>
   );
