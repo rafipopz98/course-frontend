@@ -10,6 +10,7 @@ import ForgetPassword from './components/Auth/ForgetPassword';
 import ResetPassword from './components/Auth/ResetPassword';
 import Contactus from './components/Contactus.jsx/Contactus';
 import Request from './components/Request/Request';
+import About from './components/About/About';
 
 function App() {
   return ( 
@@ -25,6 +26,7 @@ function App() {
           <Route  exact path={'/resetpassword/:token'} element={<ResetPassword/>}/>
           <Route  exact path={'/contact'} element={<Contactus/>}/>
           <Route  exact path={'/request'} element={<Request/>}/>
+          <Route  exact path={'/about'} element={<About/>}/>
         </Routes>
         <Footer />
       </Router>
