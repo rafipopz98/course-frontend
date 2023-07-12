@@ -23,13 +23,13 @@ const Footer = () => {
         color={'white'}
         fontSize={'50'}
         >
-            <a href="http://instagram.com/rafi_raff_popz" rel="noopener noreferrer" target="_blank">
+            <a href="http://instagram.com/rafi_raff_popz" rel="noopener noreferrer" target="blank">
                 <TiSocialInstagram/>
             </a>
-            <a href="http://youtube" rel="noopener noreferrer" target="_blank">
+            <a href="http://youtube" rel="noopener noreferrer" target="blank">
                 <TiSocialYoutube/>
             </a>
-           <a href="http://github.com/rafipopz98" target="_blank" rel="noopener noreferrer">
+           <a href="http://github.com/rafipopz98" target="blank" rel="noopener noreferrer">
             <DiGithub/>
            </a>
         </HStack>
