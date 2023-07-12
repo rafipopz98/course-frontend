@@ -11,6 +11,10 @@ import ResetPassword from './components/Auth/ResetPassword';
 import Contactus from './components/Contactus.jsx/Contactus';
 import Request from './components/Request/Request';
 import About from './components/About/About';
+import NotFound from './components/Layout/NotFound/Notfound'
+import PaymentSuccess from './components/Payments/PaymentSuccess'
+import PaymentFailure from './components/Payments/PaymentFailure'
+import Subscribe  from './components/Payments/Subscribers';
 
 function App() {
   return ( 
@@ -25,8 +29,12 @@ function App() {
           <Route  exact path={'/forgotpassword'} element={<ForgetPassword/>}/>
           <Route  exact path={'/resetpassword/:token'} element={<ResetPassword/>}/>
           <Route  exact path={'/contact'} element={<Contactus/>}/>
-          <Route  exact path={'/request'} element={<Request/>}/>
           <Route  exact path={'/about'} element={<About/>}/>
+          <Route  exact path={'/request'} element={<Request/>}/>
+          <Route  exact path={'/subscribe'} element={<Subscribe/>}/>
+          <Route  exact path={'/paymentsuccess'} element={<PaymentSuccess/>}/>
+          <Route  exact path={'/paymentfailure'} element={<PaymentFailure/>}/>
+          <Route  exact path={'*'} element={<NotFound/>}/>
         </Routes>
         <Footer />
       </Router>
