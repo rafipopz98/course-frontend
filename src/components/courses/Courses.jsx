@@ -81,6 +81,11 @@ const Course = ({
 const Courses = () => {
   const [keyword, setKeyword] = useState();
 
+
+
+
+
+
   const [category, setCategory] = useState();
 
   const addToPlayListHandler = () => {
@@ -127,6 +132,7 @@ const Courses = () => {
           lectureCount={2}
           addToPlayListHandler={addToPlayListHandler}
         />
+        
       </Stack>
     </Container>
   );
