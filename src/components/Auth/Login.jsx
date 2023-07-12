@@ -48,7 +48,7 @@ const Login = () => {
             />
           </Box>
           <Box>
-            <Link to={'/forgetpassword'}>
+            <Link to={'/forgotpassword'}>
                 <Button fontSize={'sm'}variant={'ghost'}>
                     Forget Password
                 </Button>
