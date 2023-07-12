@@ -14,7 +14,7 @@ import About from './components/About/About';
 import NotFound from './components/Layout/NotFound/Notfound'
 import PaymentSuccess from './components/Payments/PaymentSuccess'
 import PaymentFailure from './components/Payments/PaymentFailure'
-import Subscribe  from './co mponents/Payments/Subscribers';
+import Subscribe  from './components/Payments/Subscribers';
 
 function App() {
   return ( 
