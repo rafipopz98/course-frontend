@@ -19,6 +19,7 @@ import CoursePage from './components/CoursePage/CoursePage';
 import Profile from './components/Profile/Profile'
 import ChangePassword from './components/Profile/ChangePassword';
 import UpdateProfile from './components/Profile/UpdateProfile';
+import Dashboard from './components/Admin/Dashboard/Dashboard';
 
 function App() {
 
@@ -48,6 +49,8 @@ function App() {
           <Route  exact path={'*'} element={<NotFound/>}/>
           <Route  exact path={'/changepassword'} element={<ChangePassword/>}/>
           <Route  exact path={'/updateprofile'} element={<UpdateProfile/>}/>
+          <Route  exact path={'/admin/dashboard'} element={<Dashboard/>}/>
+          {/* <Route  exact path={'/updateprofile'} element={<UpdateProfile/>}/> */}
         </Routes>
         <Footer />
       </Router>
