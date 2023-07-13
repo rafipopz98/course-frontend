@@ -2,7 +2,7 @@ import { Box, Grid, Heading, Text, VStack } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import introvideo from '../../assets/videos/intro.mp4';
 const CoursePage = () => {
-  const lectureTitle = 'lectureTitle';
+ 
   const [lectureNumber,setLectureNumber] =useState(0) ;
   const lectures = [
     {
@@ -28,7 +28,145 @@ const CoursePage = () => {
         video: {
           url: 'fghjjhbnj',
         },
+      },{
+        _id: 'fghjk',
+        title: 'sample',
+        description: 'smap,ekfjbhd.',
+        video: {
+          url: 'fghjjhbnj',
+        },
       },
+      {
+          _id: 'fghjk',
+          title: 'sample',
+          description: 'smap,ekfjbhd.',
+          video: {
+            url: 'fghjjhbnj',
+          },
+        },
+        {
+          _id: 'fghjk',
+          title: 'sample',
+          description: 'smap,ekfjbhd.',
+          video: {
+            url: 'fghjjhbnj',
+          },
+        },{
+            _id: 'fghjk',
+            title: 'sample',
+            description: 'smap,ekfjbhd.',
+            video: {
+              url: 'fghjjhbnj',
+            },
+          },
+          {
+              _id: 'fghjk',
+              title: 'sample',
+              description: 'smap,ekfjbhd.',
+              video: {
+                url: 'fghjjhbnj',
+              },
+            },
+            {
+              _id: 'fghjk',
+              title: 'sample',
+              description: 'smap,ekfjbhd.',
+              video: {
+                url: 'fghjjhbnj',
+              },
+            },{
+                _id: 'fghjk',
+                title: 'sample',
+                description: 'smap,ekfjbhd.',
+                video: {
+                  url: 'fghjjhbnj',
+                },
+              },
+              {
+                  _id: 'fghjk',
+                  title: 'sample',
+                  description: 'smap,ekfjbhd.',
+                  video: {
+                    url: 'fghjjhbnj',
+                  },
+                },
+                {
+                  _id: 'fghjk',
+                  title: 'sample',
+                  description: 'smap,ekfjbhd.',
+                  video: {
+                    url: 'fghjjhbnj',
+                  },
+                },{
+                    _id: 'fghjk',
+                    title: 'sample',
+                    description: 'smap,ekfjbhd.',
+                    video: {
+                      url: 'fghjjhbnj',
+                    },
+                  },
+                  {
+                      _id: 'fghjk',
+                      title: 'sample',
+                      description: 'smap,ekfjbhd.',
+                      video: {
+                        url: 'fghjjhbnj',
+                      },
+                    },
+                    {
+                      _id: 'fghjk',
+                      title: 'sample',
+                      description: 'smap,ekfjbhd.',
+                      video: {
+                        url: 'fghjjhbnj',
+                      },
+                    },{
+                        _id: 'fghjk',
+                        title: 'sample',
+                        description: 'smap,ekfjbhd.',
+                        video: {
+                          url: 'fghjjhbnj',
+                        },
+                      },
+                      {
+                          _id: 'fghjk',
+                          title: 'sample',
+                          description: 'smap,ekfjbhd.',
+                          video: {
+                            url: 'fghjjhbnj',
+                          },
+                        },
+                        {
+                          _id: 'fghjk',
+                          title: 'sample',
+                          description: 'smap,ekfjbhd.',
+                          video: {
+                            url: 'fghjjhbnj',
+                          },
+                        },{
+                            _id: 'fghjk',
+                            title: 'sample',
+                            description: 'smap,ekfjbhd.',
+                            video: {
+                              url: 'fghjjhbnj',
+                            },
+                          },
+                          {
+                              _id: 'fghjk',
+                              title: 'sample',
+                              description: 'smap,ekfjbhd.',
+                              video: {
+                                url: 'fghjjhbnj',
+                              },
+                            },
+                            {
+                              _id: 'fghjk',
+                              title: 'sample',
+                              description: 'smap,ekfjbhd.',
+                              video: {
+                                url: 'fghjjhbnj',
+                              },
+                            },
   ];
   return (
     <Grid minHeight={'90vh'} templateColumns={['1fr', '3fr 1fr']}>

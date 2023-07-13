@@ -16,6 +16,9 @@ import PaymentSuccess from './components/Payments/PaymentSuccess'
 import PaymentFailure from './components/Payments/PaymentFailure'
 import Subscribe  from './components/Payments/Subscribers';
 import CoursePage from './components/CoursePage/CoursePage';
+import Profile from './components/Profile/Profile'
+import ChangePassword from './components/Profile/ChangePassword';
+import UpdateProfile from './components/Profile/UpdateProfile';
 
 function App() {
 
@@ -37,11 +40,14 @@ function App() {
           <Route  exact path={'/resetpassword/:token'} element={<ResetPassword/>}/>
           <Route  exact path={'/contact'} element={<Contactus/>}/>
           <Route  exact path={'/about'} element={<About/>}/>
+          <Route exact path ={'/profile'} element={<Profile/>}/>
           <Route  exact path={'/request'} element={<Request/>}/>
           <Route  exact path={'/subscribe'} element={<Subscribe/>}/>
           <Route  exact path={'/paymentsuccess'} element={<PaymentSuccess/>}/>
           <Route  exact path={'/paymentfailure'} element={<PaymentFailure/>}/>
           <Route  exact path={'*'} element={<NotFound/>}/>
+          <Route  exact path={'/changepassword'} element={<ChangePassword/>}/>
+          <Route  exact path={'/updateprofile'} element={<UpdateProfile/>}/>
         </Routes>
         <Footer />
       </Router>
