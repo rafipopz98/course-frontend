@@ -1,4 +1,4 @@
-import { Box, Grid } from '@chakra-ui/react'
+import { Box, Grid, Heading, Text } from '@chakra-ui/react'
 import React from 'react'
 import cursor from '../../../assets/images/cursor.png'
 import Sidebar from '../Dashboard/Sidebar'
@@ -8,10 +8,15 @@ const Users = () => {
         cursor:`url(${cursor}),default`
     }}
      minH={'100vh'} templateColumns={['1fr','3fr 1fr']}>
-<Box >
-</Box>
+
+        <Box>
+            
+        </Box>
+
 <Sidebar />
-    </Grid>
+
+    
+            </Grid>         
   )
 }
 
