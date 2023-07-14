@@ -7,7 +7,7 @@ const Admincourse = () => {
     <Grid css={{
         cursor:`url(${cursor}),default`
     }}
-     minH={'100vh'} templateColumns={['1fr','3fr 1fr']}>
+     minH={'100vh'} templateColumns={['1fr','5fr 1fr']}>
 <Box >
 </Box>
 <Sidebar />
